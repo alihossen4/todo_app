@@ -1,6 +1,4 @@
-const PrivateRoute = () =>{
-    return(
-        <div>hei</div>
-    )
+const privateRoute = ({allowedRoles}) =>{
+    return <Outlet />
 }
-export default PrivateRoute;
+export default privateRoute;
