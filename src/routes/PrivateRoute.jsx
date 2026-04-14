@@ -1,4 +1,4 @@
-const privateRoute = ({allowedRoles}) =>{
+const PrivateRoute = ({allowedRoles}) =>{
     return <Outlet />
 }
-export default privateRoute;
+export default PrivateRoute;
